@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		504E29A91B68719400FAE7F3 /* TNLogAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 504E29AA1B68719400FAE7F3 /* Build configuration list for PBXAggregateTarget "TNLogAggregate" */;
+			buildPhases = (
+				504E29AF1B6871B900FAE7F3 /* ShellScript */,
+			);
+			dependencies = (
+				504E29AE1B6871AB00FAE7F3 /* PBXTargetDependency */,
+			);
+			name = TNLogAggregate;
+			productName = TNLogAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		504E29861B686BF100FAE7F3 /* TNLogFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 504E29851B686BF100FAE7F3 /* TNLogFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		504E298C1B686BF100FAE7F3 /* TNLogFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504E29801B686BF100FAE7F3 /* TNLogFramework.framework */; };
+		504E29931B686BF100FAE7F3 /* TNLogFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504E29921B686BF100FAE7F3 /* TNLogFrameworkTests.m */; };
+		504E299E1B686C2200FAE7F3 /* TNLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 504E299C1B686C2200FAE7F3 /* TNLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		504E299F1B686C2200FAE7F3 /* TNLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 504E299D1B686C2200FAE7F3 /* TNLog.m */; };
+		504E29A31B686C8F00FAE7F3 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504E29A11B686C8F00FAE7F3 /* AFNetworking.framework */; };
+		504E29A61B686DFE00FAE7F3 /* minizip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504E29A51B686DFE00FAE7F3 /* minizip.framework */; };
+		C2F5D5BB1B85C9900064B625 /* JSONKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F5D5BA1B85C9900064B625 /* JSONKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		504E298D1B686BF100FAE7F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504E29771B686BF100FAE7F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504E297F1B686BF100FAE7F3;
+			remoteInfo = TNLogFramework;
+		};
+		504E29AD1B6871AB00FAE7F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504E29771B686BF100FAE7F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504E297F1B686BF100FAE7F3;
+			remoteInfo = TNLogFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		504E29801B686BF100FAE7F3 /* TNLogFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TNLogFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		504E29841B686BF100FAE7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504E29851B686BF100FAE7F3 /* TNLogFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNLogFramework.h; sourceTree = "<group>"; };
+		504E298B1B686BF100FAE7F3 /* TNLogFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNLogFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		504E29911B686BF100FAE7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504E29921B686BF100FAE7F3 /* TNLogFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNLogFrameworkTests.m; sourceTree = "<group>"; };
+		504E299C1B686C2200FAE7F3 /* TNLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNLog.h; sourceTree = "<group>"; };
+		504E299D1B686C2200FAE7F3 /* TNLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNLog.m; sourceTree = "<group>"; };
+		504E29A11B686C8F00FAE7F3 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
+		504E29A51B686DFE00FAE7F3 /* minizip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = minizip.framework; sourceTree = "<group>"; };
+		C2F5D5BA1B85C9900064B625 /* JSONKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSONKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504E297C1B686BF100FAE7F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504E29A31B686C8F00FAE7F3 /* AFNetworking.framework in Frameworks */,
+				504E29A61B686DFE00FAE7F3 /* minizip.framework in Frameworks */,
+				C2F5D5BB1B85C9900064B625 /* JSONKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504E29881B686BF100FAE7F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504E298C1B686BF100FAE7F3 /* TNLogFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504E29761B686BF100FAE7F3 = {
+			isa = PBXGroup;
+			children = (
+				504E29821B686BF100FAE7F3 /* TNLogFramework */,
+				504E298F1B686BF100FAE7F3 /* TNLogFrameworkTests */,
+				504E29811B686BF100FAE7F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		504E29811B686BF100FAE7F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504E29801B686BF100FAE7F3 /* TNLogFramework.framework */,
+				504E298B1B686BF100FAE7F3 /* TNLogFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504E29821B686BF100FAE7F3 /* TNLogFramework */ = {
+			isa = PBXGroup;
+			children = (
+				504E29851B686BF100FAE7F3 /* TNLogFramework.h */,
+				504E299C1B686C2200FAE7F3 /* TNLog.h */,
+				504E299D1B686C2200FAE7F3 /* TNLog.m */,
+				504E29A01B686C8F00FAE7F3 /* Frameworks */,
+				504E29831B686BF100FAE7F3 /* Supporting Files */,
+			);
+			path = TNLogFramework;
+			sourceTree = "<group>";
+		};
+		504E29831B686BF100FAE7F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				504E29841B686BF100FAE7F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		504E298F1B686BF100FAE7F3 /* TNLogFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				504E29921B686BF100FAE7F3 /* TNLogFrameworkTests.m */,
+				504E29901B686BF100FAE7F3 /* Supporting Files */,
+			);
+			path = TNLogFrameworkTests;
+			sourceTree = "<group>";
+		};
+		504E29901B686BF100FAE7F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				504E29911B686BF100FAE7F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		504E29A01B686C8F00FAE7F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2F5D5BA1B85C9900064B625 /* JSONKit.framework */,
+				504E29A51B686DFE00FAE7F3 /* minizip.framework */,
+				504E29A11B686C8F00FAE7F3 /* AFNetworking.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		504E297D1B686BF100FAE7F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504E29861B686BF100FAE7F3 /* TNLogFramework.h in Headers */,
+				504E299E1B686C2200FAE7F3 /* TNLog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		504E297F1B686BF100FAE7F3 /* TNLogFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504E29961B686BF100FAE7F3 /* Build configuration list for PBXNativeTarget "TNLogFramework" */;
+			buildPhases = (
+				504E297B1B686BF100FAE7F3 /* Sources */,
+				504E297C1B686BF100FAE7F3 /* Frameworks */,
+				504E297D1B686BF100FAE7F3 /* Headers */,
+				504E297E1B686BF100FAE7F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TNLogFramework;
+			productName = TNLogFramework;
+			productReference = 504E29801B686BF100FAE7F3 /* TNLogFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		504E298A1B686BF100FAE7F3 /* TNLogFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504E29991B686BF100FAE7F3 /* Build configuration list for PBXNativeTarget "TNLogFrameworkTests" */;
+			buildPhases = (
+				504E29871B686BF100FAE7F3 /* Sources */,
+				504E29881B686BF100FAE7F3 /* Frameworks */,
+				504E29891B686BF100FAE7F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504E298E1B686BF100FAE7F3 /* PBXTargetDependency */,
+			);
+			name = TNLogFrameworkTests;
+			productName = TNLogFrameworkTests;
+			productReference = 504E298B1B686BF100FAE7F3 /* TNLogFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504E29771B686BF100FAE7F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = max;
+				TargetAttributes = {
+					504E297F1B686BF100FAE7F3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					504E298A1B686BF100FAE7F3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					504E29A91B68719400FAE7F3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 504E297A1B686BF100FAE7F3 /* Build configuration list for PBXProject "TNLogFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 504E29761B686BF100FAE7F3;
+			productRefGroup = 504E29811B686BF100FAE7F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504E297F1B686BF100FAE7F3 /* TNLogFramework */,
+				504E298A1B686BF100FAE7F3 /* TNLogFrameworkTests */,
+				504E29A91B68719400FAE7F3 /* TNLogAggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504E297E1B686BF100FAE7F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504E29891B686BF100FAE7F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		504E29AF1B6871B900FAE7F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=TNLogFramework\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504E297B1B686BF100FAE7F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504E299F1B686C2200FAE7F3 /* TNLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504E29871B686BF100FAE7F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504E29931B686BF100FAE7F3 /* TNLogFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		504E298E1B686BF100FAE7F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504E297F1B686BF100FAE7F3 /* TNLogFramework */;
+			targetProxy = 504E298D1B686BF100FAE7F3 /* PBXContainerItemProxy */;
+		};
+		504E29AE1B6871AB00FAE7F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504E297F1B686BF100FAE7F3 /* TNLogFramework */;
+			targetProxy = 504E29AD1B6871AB00FAE7F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		504E29941B686BF100FAE7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		504E29951B686BF100FAE7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		504E29971B686BF100FAE7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+					armv7,
+					armv7s,
+				);
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TNLogFramework/Frameworks",
+				);
+				INFOPLIST_FILE = TNLogFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		504E29981B686BF100FAE7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+					armv7,
+					armv7s,
+				);
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TNLogFramework/Frameworks",
+				);
+				INFOPLIST_FILE = TNLogFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		504E299A1B686BF100FAE7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TNLogFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		504E299B1B686BF100FAE7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TNLogFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		504E29AB1B68719400FAE7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		504E29AC1B68719400FAE7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504E297A1B686BF100FAE7F3 /* Build configuration list for PBXProject "TNLogFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504E29941B686BF100FAE7F3 /* Debug */,
+				504E29951B686BF100FAE7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504E29961B686BF100FAE7F3 /* Build configuration list for PBXNativeTarget "TNLogFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504E29971B686BF100FAE7F3 /* Debug */,
+				504E29981B686BF100FAE7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504E29991B686BF100FAE7F3 /* Build configuration list for PBXNativeTarget "TNLogFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504E299A1B686BF100FAE7F3 /* Debug */,
+				504E299B1B686BF100FAE7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504E29AA1B68719400FAE7F3 /* Build configuration list for PBXAggregateTarget "TNLogAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504E29AB1B68719400FAE7F3 /* Debug */,
+				504E29AC1B68719400FAE7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 504E29771B686BF100FAE7F3 /* Project object */;
+}

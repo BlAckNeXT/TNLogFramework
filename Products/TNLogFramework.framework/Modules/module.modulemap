@@ -1,0 +1,6 @@
+framework module TNLogFramework {
+  umbrella header "TNLogFramework.h"
+
+  export *
+  module * { export * }
+}
